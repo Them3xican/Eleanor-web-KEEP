@@ -1,34 +1,25 @@
+  
 body {
-    
     margin: 0 auto;
     padding: 0;
+    min-width: 320px;
+    min-height: 568px;
     width: 100%;
-    height: 100%;
-    font-family: arial;
-    background-color: lightgrey;
-    
+    height: auto;  
+     background-color: floralwhite;
     
 }
 
-#wrapper {
-    
-    margin: 0 auto;
-    padding: 0;
-    min-width: 980px;
-    
-}
-
-header {    
-    
-    margin: 0 auto;
+header {
+   margin: 0 auto;
     padding: 0;
     width: 100%;
     height: 40em;
-    background-image: url("../img/R&W_Wedding_Photos_B&W-471.jpg");
+    background-image: url("../img/background-use.png");
     background-repeat: no-repeat;
-    background-position: center; 
-    background-size:cover;
-    
+    background-size: cover;
+    background-position: center;
+    text-align: center;
 }
 
 header nav {
@@ -37,9 +28,10 @@ header nav {
     padding: 0;
     max-width: 100%;
     width: 100%;
-    height: 5em;
+    height: auto;
     background-color: darkgrey;
     opacity: 0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
     text-align: center;
     position: fixed;
 }
@@ -48,7 +40,7 @@ header nav a {
     
     margin: 0 auto;
     padding: 0;
-    font-family: century gothic;
+    font-family: 'Lato', sans-serif;
     text-decoration: none;
     margin: 0 auto;
     padding-left: 2%;
@@ -56,230 +48,270 @@ header nav a {
     margin-top: 2%;
     
     color: #403F3D;
-    font-size: 1.5em;
+    font-size: 160%;
 }
 
-header nav ul li a:hover {
+header nav a:hover {
     
     color: #F35095;
 }
 
-header img {
+header #logo {
     
     margin: 0 auto;
     padding: 0;
-    width: 30%;
-    float: right;
-    margin-right: 10em;
-    margin-top: 5em;
-}
-
-#aside {
-    
-    margin: 0 auto;
-    padding: 0;
-    max-width: 100%;
-    width: 100%;
-    height: 40em;
-   
-}
-
-#pic {
-    
-    margin: 0 auto;
-    padding: 0;
-    margin-top: 5%;
-    max-width: 100%;
-    width: 50%;
-    height: 35em;
-    float: left;
-    background-image: url("../img/book_front_colour_page_use2.jpg");
-     background-repeat: no-repeat;
-    background-position: center; 
-    background-size: 70%;
-    border-color: red;
-    border-style: dashed;
-    border-width: 1px;
-    
-}
-
-#text {
-    
-     margin: 0 auto;
-    padding: 0;
-    margin-top: 5%;
-    max-width: 100%;
     width: 40%;
-    height: 30em;
-    margin-right: 5em;       
-    float: right;
-     text-align: left;
-    
+    min-width: 300px;
+    margin-top: 10em;
 }
 
-#text h1 {
-    
-    font-family: Century Gothic;
-    font-weight: 200;
-    font-size: 1.5em;
-    color: crimson;
-}
-
-#text p {
-    
-    font-family: Century Gothic;
-    font-weight: 200;
-    font-size: 1em;
-    
-    
-}
-
-section {
-    
-    margin: 0 auto;
-    padding: 0 ;
-    max-width: 100%;
-    width: 100%;
-    height: 50em;
-    text-align: left;
-    overflow:hidden;
-    
-}
-
-#info-about {
+#container {
     
     margin: 0 auto;
     padding: 0;
-    height: 50em; /* or any value */
-    overflow: hidden;   
+    min-width: 320px;
+    min-height: 568px;
+    width: 100%;
+    height: 100%;
 }
 
-#info-about a {
+#about {
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   min-height: 30em;
+    max-height: 70em;
+}
+
+#about-img {
+    
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    float: left;
+    margin-top: 4em;
+    text-align: center;
+}
+
+#about-img img {
+    
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    min-width: 400px;
+}
+
+#about-info {
+    
+     margin: 0;
+    padding: 0;
+    width: 60%;
+    float: left;
+    margin-top: 3em;
+    text-align: justify;
+    -moz-text-align-last: center;
+         text-align-last: center;
+    
+}
+
+#about-info h1 {
+    
+    margin: 0 auto;
+    padding: 0;
+    font-size: 150%;
+    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+    
+    
+}
+#about-info p {
+ 
+    margin: 0 auto;
+    padding: 0;
+    font-size: 80%;
+    font-family: 'Lato', sans-serif;
+    width: 80%;
+    margin-top: 1em;
+
+}
+
+#career {
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 50em;
+    max-height: 90%;
+    text-align: justify;
+    
+    
+}
+
+#cdiv {
+ margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    text-align: justify;
+
+}
+#cdiv a {
     
     text-decoration: underline;
     color: blue;
-    font-size: 0.9em;
-    font-family: Century Gothic;
+    font-size: 90%;
+    font-family: 'Lato', sans-serif;
     font-weight: 200;
 }
 
 
-#info-about h2 {
+#cdiv h1 {
     
-    font-family: Century Gothic;
+    font-family: 'Lato', sans-serif;
     font-weight: 200;
-    font-size: 1.5em;
-    margin-left: 10%;
-    margin-top: 5%;
+    font-size: 150%;
+    padding-top: 2em;
+     
 }
 
-#info-about h1 {
+#cdiv h2 {
     
     margin-left: 5%;
-    font-family: Century Gothic;
+    font-family: 'Lato', sans-serif;
     font-weight: 200;
-    font-size: 1em;
-    color: crimson;
+    font-size: 120%;
+    color: #F0788C;
     
 }
 
-#info-about p {
+#cdiv p {
     
     margin-left: 10%;
-    font-size: 0.9em;
-    font-family: Century Gothic;
+    font-size: 80%;
+    font-family: 'Lato', sans-serif;
     font-weight: 200;
     
 }
 
-
-
-#img {
+#gallery {
     
-    margin: 0 auto;
-    padding:0 ;
-    margin-top: 5%;
-    max-width: 20000px;
+    margin: 0;
+    padding: 0;
     width: 100%;
-    height: 40em;
-    text-align: left;
+    min-height: 30em;
+    max-height: auto;
+    text-align: center;
 
-    
 }
-    
-#div1  {
+
+ #div1  {
     
     max-width: 100%;
     width: 100%;
-    height: 40em;
     margin: 0 auto ;
     padding: 0;
     text-align: left;
      display: block;
-    float: right;
+    
+
     
        
 }
-
-
 
 #div2 {
     
    max-width: 100%;
     width: 100%;
-    height: 40em;
+   
     margin: 0 auto ; 
     padding: 0%;
     text-align: left;
-    display: block;
-    float: right;
+    display: none;
     
 }    
 
-#img h1 {
+.table {
     
     margin: 0 auto;
     padding: 0;
-    margin-top: 2em;
-    margin-left: 3em;
-    font-family: Century Gothic;
+    min-width: 320px;
+    min-height: 568px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+    }
+
+.row {
+    
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+
+    
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    margin: 0 auto;
+    float: left;
+    width: 16%;
+    margin-top: 5em;
+   
+    
+}
+
+#gallery img {
+    
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    
+    
+    
+}
+
+
+#gallery h1 {
+    
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
     font-weight: 200;
-    font-size: 2.5em;
-    color: crimson;
-}
-
-#img ul {
+    font-size: 150%;
+    margin-top: 2em;
     
-    margin-left: 5em;
-}
-
-#img ul li {
     
-    display: inline;
 }
 
-#img a {
+#gallery h2 {
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-size: 100%;
+    color: #F0788C;
+    
+    
+    
+}
+
+#gallery a {
     
     text-decoration: none;
-    color: black;
-    font-size: 1.5em;
-}
-
-#img2 {
-    
-    margin-left: 5em;
-}
-
-#img img {
-    
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    max-width: 100%;
-    width:12%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 2em;
-   
+    
+}
+
+#gallery a:hover{
+    
+    text-decoration: underline;
 }
 
 #contact {
@@ -288,25 +320,30 @@ section {
     padding: ;
     max-width: 100%;
     width: 100%;
-    height: 40em;
+    height: 45em;
     text-align: left;
     overflow: hidden;
 }
 
 #contact-image {
     
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    margin-top: 5em;
     max-width: 100%;
     width: 50%;
-    height: 80%;
     float: left;
-    text-align: left;
-    background-image: url("../img/postbox.jpg");
-    background-position:center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 4em;
+
+       
+}
+
+#contact-image img {
+    
+    margin: 0;
+    padding: 0;
+    width: 55%;
+    min-width: 250px;
     
 }
 
@@ -318,36 +355,25 @@ section {
     width: 50%;
     height: 100%;
     float: right;
-    text-align: left;
+    text-align: center;
+    padding-top: 4em;
     
     
 }
 
-#info {
+#contact-info h1 {
     
-    margin: 0 auto;
-    padding:0;
-    margin-top: 15%;
-    max-width: 100%;
-    width: 80%;
-    height: 100%;
-    float left;
-    
-}
-
-#info h1 {
-    
-    font-family: Century Gothic;
+    font-family: 'Lato', sans-serif;
     font-weight: 200;
-    font-size: 2.5em;
-    color: crimson;
+    font-size: 150%;
+    color: #F0788C;
 }
 
-#info p {
+#contact-info p {
     
-    font-family: Century Gothic;
+    font-family: 'Lato', sans-serif;
     font-weight: 200;
-    font-size: 1.5em;
+    font-size: 80%;
     
 }
 
@@ -355,17 +381,190 @@ section {
     
     margin: 0 auto;
     padding: 0;
-    margin-left: 5em;
     max-width: 100%;
     width: 10%;
+    min-width: 50px;
 }
 
 #mail {
     
     margin: 0 auto;
     padding: 0;
-    margin-left: 5em;
     max-width: 100%;
     width: 10%;
+    min-width: 50px;
     
 }
+
+/* Medium Devices, Desktops */
+
+    /* Large Devices, Wide Screens */
+
+  /* Medium Devices, Desktops */
+    
+     /* Large Devices, Wide Screens */
+
+
+    /* Large Devices, Wide Screens */
+
+  /* Medium Devices, Desktops */
+
+    /* Large Devices, Wide Screens */
+
+    @media (max-width : 320px) {}
+
+    @media (max-width : 375px) {
+
+    #container {
+        width: 100%;
+    
+    }
+    
+}
+
+    @media (max-width : 414px) {
+
+    #container {
+        width: 100%;
+    
+    }
+
+    nav {
+        display: none;
+    
+    }
+
+    header #logo {
+        margin-right: 1em;
+    
+    }
+
+    #about {
+        width: 100%;
+        min-height: 65em;
+    
+    }
+
+    #about-info {
+        text-align: center;
+    
+    }
+
+    #gallery {
+        width: 100%;
+    
+    }
+
+    #contact {
+        width: 100%;
+        height: 55em;
+    
+    }
+    
+}
+
+    @media (max-width : 768px) {
+
+    #container {
+        width: 100%;
+    
+    }
+
+    header #logo {
+        margin-right: 2em;
+    
+    }
+
+    #gallery {
+        width: 100%;
+        min-height: 65em;
+    
+    }
+
+    .row {
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+        text-align: center;
+    
+    }
+
+    .row:after {
+        content: "";
+        clear: both;
+        display: block;
+    
+    }
+
+    [class*="col-"] {
+        float: left;
+        width: 50%;
+    
+    }
+
+    #gallery img {
+        margin: 0;
+        padding: 0;
+        max-width: 150px;
+    
+    }
+
+    #contact-image {
+        width: 100%;
+    
+    }
+
+    #contact-image img {
+        width: 40%;
+    
+    }
+
+    #contact-info {
+        width: 100%;
+    
+    }
+    
+}
+
+    @media (max-width : 920px) {
+
+    #container {
+        width: 100%;
+    
+    }
+
+    #about {
+        width: 100%;
+        height: 56em;
+    
+    }
+
+    #about-img {
+        width: 100%;
+        text-align: center;
+    
+    }
+
+    #about-img img {
+        width: 50%;
+        min-width: 300px;
+    
+    }
+
+    #about-info {
+        width: 100%;
+    
+    }
+
+    #gallery img {
+        margin: 0;
+        padding: 0;
+        width: 90%;
+    
+    }
+    
+}
+
+    @media (max-width : 1024px) {}
+
+    @media (max-width : 1200px) {}
